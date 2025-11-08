@@ -1,0 +1,22 @@
+# config.yaml
+
+# --- Model Paths ---
+embedding_model_path: "D:/SemanticSearch/all-MiniLM-L6-v2"
+llm_model_path: "C:/Users/T14 gen2/Documents/SementicSearch/Tinyllama"
+
+# --- PDF Settings ---
+pdf_path: "D:/Books/Deep Learning with Python.pdf"
+
+# --- Text Chunking ---
+chunk_size: 300
+chunk_overlap: 50
+
+# --- Retrieval ---
+top_k: 2
+
+# --- LLM Generation ---
+max_length: 256
+temperature: 0.3
+
+# --- Vector DB ---
+vector_db_dir: "./chroma_db"
